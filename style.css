@@ -3,9 +3,7 @@ body
     font-family: 'Montserrat', sans-serif;
     background: #faf5f5;
 }
-
-.wrapper
-{
+.wrapper{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -14,37 +12,27 @@ body
     background: #ffffff;
     box-shadow: 6px 6px 20px rgba(0,0,0,0.1);
 }
-
-aside
-{
+aside{
     width: 370px;
     background: #1E2939;
 }
-
-.cv-photo
-{
+.cv-photo{
     margin-top: 25px;
 }
-
-.header-secondary
-{
+.header-secondary{
     color:#ffffff;
 }
 
-.contact-links
-{
+.contact-links{
     color:#ffffff;
     font-size: 14px;
     line-height: 24px;
 }
 
-.bold
-{
+.bold{
     font-weight: 700;
 }
-
-.list-secondary
-{
+.list-secondary{
     color: #FB6D3A;
     font-size: 14px;
     line-height: 24px;
@@ -52,14 +40,10 @@ aside
     padding-left: 0;
     list-style-position: inside;
 }
-
-.list-secondary-item
-{
+.list-secondary-item{
     color:#ffffff;
 }
-
-.contact-block
-{
+.contact-block{
     margin-top: 51px;
     margin-left: 40px;
 }
@@ -69,9 +53,93 @@ aside
     margin-top: 47px;
     margin-left: 40px;
 }
-
-.soft-skills-block
-{
+.soft-skills-block{
     margin-top: 44px;
     margin-left: 40px;
+}
+main{
+    padding-top: 102px;
+    padding-left: 88px;
+    padding-bottom: 102px;
+    padding-right: 88px;
+    padding: 102px 88px 102px 88px;
+}
+.main-description{
+    width: 400px;
+}
+.job-title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+}
+.description{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.projects{
+    width: 485px;
+    margin-bottom: 51px;
+}
+.list-primary{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 0;
+    list-style-position: inside;
+}
+.list-primary-item{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+.header-primary{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+.job-position{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.highlight{
+    color:#FB6D3A;
+}
+.job-date{
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.list-job{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 0;
+    list-style-position: inside;
+}
+.major{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+.black-bold-pipe{
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
 }
